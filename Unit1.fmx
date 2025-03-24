@@ -1,0 +1,299 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Menu Flutuante'
+  ClientHeight = 572
+  ClientWidth = 365
+  Fill.Color = xFFF3F3F3
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  object rct1: TRectangle
+    Align = Top
+    Fill.Color = xFFEF9644
+    Size.Width = 365.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = Gradient
+    Stroke.Gradient.Points = <
+      item
+        Color = claBlack
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = claWhite
+        Offset = 1.000000000000000000
+      end>
+    object lbl1: TLabel
+      Align = Client
+      StyledSettings = [Family]
+      Size.Width = 365.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 22.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = '@delphianna'
+      TabOrder = 0
+    end
+  end
+  object lytMenuInserir: TLayout
+    Tag = 1
+    HitTest = True
+    Position.X = 264.000000000000000000
+    Position.Y = 396.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object RoundRect1: TRoundRect
+      Align = Client
+      Fill.Color = xFFEF9644
+      Locked = True
+      HitTest = False
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object Image1: TImage
+        MultiResBitmap.Height = 24
+        MultiResBitmap.Width = 24
+        MultiResBitmap = <
+          item
+            Width = 24
+            Height = 24
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000018000000180806000000E0773D
+              F8000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              004449444154484BEDD3310A00200C03C09AFFBFB98A52DC240A66CB81842E0D
+              82867D95997D9E1AAFA052C605940BA856B9BCBEF113007BAFFC064FFC93255C
+              40C90B8C8818689C140479680E500000000049454E44AE426082}
+            FileName = 
+              'D:\Projetos\Parceiro\src\BlocoEletronico\imagens\icons8-soma-24.' +
+              'png'
+          end>
+        Align = Client
+        Locked = True
+        Size.Width = 50.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        WrapMode = Center
+      end
+      object ShadowEffect3: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.200000002980232200
+        Opacity = 0.400000005960464500
+        ShadowColor = claBlack
+      end
+    end
+  end
+  object lytMenuPesquisar: TLayout
+    Tag = 2
+    HitTest = True
+    Position.X = 264.000000000000000000
+    Position.Y = 328.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object RoundRect2: TRoundRect
+      Align = Client
+      Fill.Color = xFFEF9644
+      Locked = True
+      HitTest = False
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object Image2: TImage
+        MultiResBitmap.Height = 24
+        MultiResBitmap.Width = 24
+        MultiResBitmap = <
+          item
+            Width = 24
+            Height = 24
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000018000000180806000000E0773D
+              F8000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              014B49444154484BE594414EC2501445DB4EC519B812E7A83B80B8101D187440
+              0232D1D540CA3A4417A06B50C0C411C573EBAD6982A52D618427B97DFFBF7FDF
+              FBED4FDBE0304992E4048DD033FAB466E81EB56CDB0D1A5CA2C5BA00D6E6A86B
+              7B3DDC3C71A3316AA32389D41971E2B515EAB8AC1A14E858D23B27DE38BD016B
+              3D79E003359D2E87C291AA8863A70AC113DB3B74AA1CCC2F2E6A3B55089E737B
+              674E958379A92268385508DE6319890BA70A891CC5DAB10AA16329F90DDE1C4F
+              1DB791795E1D0BC96F30D58527BF4A67DBB9D6250CC3389D5581F36CA1B9CFB6
+              E7F406ACDDD9F3AE1AA7AB414117ADDC20467A5B1A12E30B34D59A60DC77593D
+              28EC50AF8FE84F58D79DF73D1503975687A2264D86E8092D917E761A2B971ECB
+              4FEF5FEA6F52061B65BF8C8C072FED8FFFB149FE43DB99288A1E697AEBA95E80
+              2F0FF70B8D0792A70741107C036B29D483A38597F70000000049454E44AE4260
+              82}
+            FileName = 
+              'D:\Projetos\Parceiro\src\BlocoEletronico\imagens\icons8-pesquisa' +
+              'r-24_branco.png'
+          end>
+        Align = Client
+        Locked = True
+        Size.Width = 50.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        WrapMode = Center
+      end
+      object ShadowEffect2: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.200000002980232200
+        Opacity = 0.400000005960464500
+        ShadowColor = claBlack
+      end
+    end
+  end
+  object lytMenuFechar: TLayout
+    Tag = 3
+    HitTest = True
+    Position.X = 264.000000000000000000
+    Position.Y = 260.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    OnClick = lytMenuFecharClick
+    object RoundRect3: TRoundRect
+      Align = Client
+      Fill.Color = xFFB82600
+      Locked = True
+      HitTest = False
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object Image3: TImage
+        MultiResBitmap.Height = 24
+        MultiResBitmap.Width = 24
+        MultiResBitmap = <
+          item
+            Width = 24
+            Height = 24
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000018000000180806000000E0773D
+              F8000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              00B949444154484BED94610EC2200C85D13BCCE811DD71F5879721D4D7E47521
+              63AB0C9CF1C7BE8414E8EB2B6119E1E03F4929DD312E5C7E44B55AC3A50F8423
+              86C4189F354D5443AD682DB7D7816840C1430B105F8837A60AE65A11B932E553
+              D3A4D9DCF09A749B1B4B4DBE666EC068FA881AF3B9E628EB0346D3A9695E7DF2
+              33E366D0E0C4691F7A0DF9B5E473CD51D6060C8A0F3ADF435CFD4F5C96CC992A
+              729B9B78E64673931A73A3A90944FB3E760A84FB3DD7073F26843731FCC07F8F
+              7898160000000049454E44AE426082}
+            FileName = 
+              'D:\Projetos\Parceiro\src\BlocoEletronico\imagens\icons8-multipli' +
+              'ca'#231#227'o-24.png'
+          end>
+        Align = Client
+        Locked = True
+        HitTest = False
+        Size.Width = 50.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        WrapMode = Center
+      end
+      object ShadowEffect1: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.200000002980232200
+        Opacity = 0.400000005960464500
+        ShadowColor = claBlack
+      end
+    end
+  end
+  object lytMenu: TLayout
+    HitTest = True
+    Position.X = 264.000000000000000000
+    Position.Y = 464.000000000000000000
+    Size.Width = 60.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    OnClick = lytMenuClick
+    object rectMenu: TRoundRect
+      Align = Client
+      Fill.Color = xFFEF9644
+      Locked = True
+      HitTest = False
+      Size.Width = 60.000000000000000000
+      Size.Height = 60.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object imgMenu: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              031F494441546843ED983D6CD34014C7E380DA223628291B0C2CB41D901091D8
+              0A0231966FF131C0849860800D512616683BC3C8C404840D0143C79406244461
+              40416AD9402A0BA940900F7ECF7E892E76E2244D9A9EC4FDA5A7F779E7BFCFE7
+              F3F9120E0E0E0E0E0EFF1D2A95CA70A9549A2D168B9F9055E423FE8CC4B5C45E
+              94CBE531087F4757C242FC1B7A544BED03233C04C9E5307153C82FA107B5C9BA
+              C3531D016407506964C80F00884D789E774BED9564327909730E99C07F84BF5D
+              72B4BD8B2DF15EE037F286EBFE09DC36C19C7E25231A23D7B4D407FEF550BE67
+              0297977A990892AA236014F7ABD9108CC857357DE02FABD973C471693A85B8F3
+              491A5EC5DC1C44FC8E763335F6A89DC13E05F1327692FAA7D89392C3CE632F89
+              DD0314E9EB01D77AAEFEDA01B1715E5254F068B1E775399D376225F49836B10F
+              109EAE926D24E4EF69A99D60BA78109D62A40B2671F56F4B5E4B63416D0A4923
+              3B34D45F70E111C89E41DF509DD2542CA83BCCCDBE439B37FF56E25A622F2079
+              12B27F4DF255212E2FD7392DB50F904BC171D520FC13C989366292EF684AC52D
+              A3B25C1E4736F9812EC1343B682CB31F58168F20B2A71A415E638F6B5D86BAAC
+              D88A12224B763E70DB04A391A7E3BAC7DC43B9A097F1817F3194AF13B87CD6D2
+              089A7E894145B5D5683585CEF348B70691AEB18FA9714C0CFA9629741491ED77
+              780ABD40BD175B409B02EA31F92F41648300C9F04B5C40E425AE7D4FD4DE98EF
+              423B809C9DCB288F7D27173F8BDC142DBEA622207F08AE39B4497E41E25AD23F
+              40D4E3E27790DAD45042E24F495E4B2320374C4D5AB486FA0F366E3326F1B090
+              BFAFA5F60182E1AD7556B7D65923B6EE5BEBB865F4048FF70A66ED87C60439F3
+              E7E619F66996BCEACFCD136CF98A4B3FDDFEDC14E9FB217D64D46F0F8CDE0F19
+              C57604F864AB10BF51DD5A052E2BDA75044DBFC4DC714ECD9680F02E357D84FD
+              6E11C7256E9518400ED0788B86EAC0C8848F582EE3CFD1A67AC4B24D72F85D1D
+              B1D0FE17FD2E209D1DABB402240779B4561D72750CC88D4252F6338DC84B7CAF
+              96DA0B1EB11CF44E4378119183DE4559FF21EF9FD239383838383838344522F1
+              0FEA0ADA1638E70E8A0000000049454E44AE426082}
+            FileName = 
+              'D:\Projetos\Parceiro\src\BlocoEletronico\imagens\icons8-op'#231#245'es-4' +
+              '8.png'
+          end>
+        Align = Client
+        Locked = True
+        HitTest = False
+        Size.Width = 60.000000000000000000
+        Size.Height = 60.000000000000000000
+        Size.PlatformDefault = False
+        WrapMode = Center
+      end
+      object ShadowEffect4: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.200000002980232200
+        Opacity = 0.400000005960464500
+        ShadowColor = claBlack
+      end
+    end
+  end
+end
